@@ -3,35 +3,18 @@ layout: default
 ---
 
 <section id="about">
-<h1>About Me</h1>
+
+<p>This site is under construction. Check back in the summer of 2016.</p>
+<!-- <h1>About Me</h1>
 
   <div class="blurb">
     {{ site.data.settings.blurb | markdownify }}
-  </div>
+  </div> -->
   
-  {% if site.data.settings.skills %}
-   
-  <div class="skill-lockup">
-   <h3> Skills </h3>
-
-    {% for skill in site.data.settings.skills %}
-
-      <div class="skill-unit">
-        <div class="skill-label">{{ skill.name }}</div>
-        <div class="skill-icons skill-{{ skill.value }}">
-          {% for i in (1..10) %}
-            <span></span>
-          {% endfor %}
-        </div>
-      </div>    
-
-    {% endfor %}
-    
-  </div>
-    {% endif %}
+  <!-- {% include main/skill-lockup.html %} -->
 </section>
 
-<section id="posts">
+<!-- <section id="posts">
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
@@ -47,7 +30,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-</section>
+</section> -->
   <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
 
 </div>

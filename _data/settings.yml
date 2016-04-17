@@ -1,5 +1,5 @@
 # Site settings
-title: Tim Kennedy II
+title: tktechie studios
 email: <SCRIPT TYPE="text/javascript"> emailE=('tktechie'); emailE=(emailE + '@'); emailE=(emailE + 'me.com'); document.write('<a href="mailto:' + emailE + '">'+ emailE + '</a>') </SCRIPT>
 description: > # this means to ignore newlines until "baseurl:"
   I'm a technology oriented person interested in learning about almost everything. 
@@ -10,12 +10,12 @@ github_username:  tktechie
 
 menu:
 - {name: About Me, url: '/index.html#about'}
-- {name: Posts, url: '/index.html#posts'}
+#- {name: Posts, url: '/index.html#posts'}
 #- {name: Clients, url: '#clients'}
 - {name: Contact, url: '/index.html#contact'}
 
 blurb: >
-  I work with programs like <a href="https://en.wikipedia.org/wiki/AutoCAD">AutoCAD</a> and the <a href="https://en.wikipedia.org/wiki/SketchUp">SketchUp</a> suite to make construction drawings and architectural visualizations.
+  Hi there!
 
 skills:
 - {name: 3D Modeling, value: '8'}
